@@ -1,5 +1,4 @@
 import Typed from 'react-typed';
-import './components'
 
 function LandingPage() {
 
