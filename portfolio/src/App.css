@@ -15,7 +15,7 @@
 
 html {
   background: #f9f9f9;
-  min-width: 100vw;
+  min-width: 100%;
 }
 
 /* Navbar */
@@ -28,7 +28,7 @@ html {
   min-height: 80px;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1);
   position: fixed;
-  width: 100vw;
+  width: 100%;
   z-index: 10;
 }
 
@@ -51,7 +51,6 @@ html {
 
 /* Landing Page */
 section#landing-page {
-  padding: 0 7%;
   position: relative;
   z-index: 1;
 }
@@ -76,7 +75,6 @@ section#landing-page {
 
 #landing-page h1 {
   font-weight: 400;
-  font-size: 48px;
 }
 
 #landing-page div:nth-child(2) h3 {
@@ -129,13 +127,113 @@ div.skills-logos img {
   border-radius: 15px;
 }
 
+/* about me */
+
+
+#about-me h1 {
+  font-family: var(--poppins);
+  padding: 10px 0;
+}
+
+#about-me>div.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#about-me>div.content>div:first-child {
+  background: white;
+  padding: 3% 55px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  max-width: 861px;
+  width: 67%;
+  font-family: var(--mulish);
+}
+
+#about-me>div.content h3 {
+  color: #719EF8;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#about-me>div.content p {
+  line-height: 35px;
+  font-size: 28px;
+  color: #717171
+}
+
+#about-me>div.content>div:nth-child(2) {
+  margin-left: 2%;
+}
+
+div.fun-facts {
+  font-family: var(--poppins);
+  padding: 25px 0;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #C8CCD6;
+
+}
+
+.desc {
+  font-weight: 700;
+  color: #719EF8;
+  margin-right: 5px;
+}
+
+#about-me>div.content>div:nth-child(2) p {
+  font-size: 16px;
+}
+
+div.socials {
+  display: flex;
+  justify-content: center;
+}
+
+div.socials img {
+  margin: 0 15px;
+}
+
+.fun-facts .bolded {
+  color: #E95555;
+}
+
+
 /* Utilities */
 
 section {
   min-height: 100vh;
+  padding: 0 7%;
 }
 
 h3 {
   font-size: 30px;
   font-weight: 400;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.bolded {
+  font-weight: 700;
+}
+
+.blue-btn {
+  background: #719EF8;
+  color: white;
+  border: none;
+  font-family: var(--poppins);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 25px auto;
+  padding: 3px 0;
+  border-radius: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.external-link {
+  color: blue;
+  text-decoration: underline;
 }
