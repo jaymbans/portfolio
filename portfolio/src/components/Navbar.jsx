@@ -11,7 +11,7 @@ function Navbar() {
       <div className="navbar-right">
         <a href='#' className='nav-link'>Home</a>
         <a href='#about-me' className='nav-link'>About</a>
-        <a className='nav-link'>Projects</a>
+        <a className='nav-link' href='#projects'>Projects</a>
         <a className='nav-link'>Contact</a>
       </div>
     </div>

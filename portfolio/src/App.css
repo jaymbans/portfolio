@@ -11,6 +11,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: var(--mulish);
 }
 
 html {
@@ -131,7 +132,8 @@ div.skills-logos img {
 /* about me */
 
 
-#about-me h1 {
+#about-me h1,
+#projects h1 {
   font-family: var(--poppins);
   padding-top: 12vh;
   padding-bottom: 2vh;
@@ -200,38 +202,97 @@ div.socials img {
   color: #E95555;
 }
 
-div.card-container {
+/* projects */
+div.project {
   display: flex;
-  justify-content: space-between;
+  height: 50vh;
+  min-height: 300px;
 }
 
-div.card-container>div {
-  background: white;
-  padding: 30px 20px;
-  width: 27%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 1vh 0;
+div.project>div {
+  width: 50%;
 }
 
-div.card-container>div p {
-  margin: 10px 0;
-  color: #484848;
-  font-family: var(--mulish);
-  font-size: 22px;
+div.project>:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-h5.title {
-  font-family: var(--poppins);
-  color: #719EF8;
+.project span {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.project span>a {
   font-weight: 700;
-  text-transform: uppercase;
-  font-size: 25px;
+  margin: 0 5px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
-div.card-container>div>img {
-  width: auto;
-  height: 92px;
+.project span>a svg {
+  margin-left: 5px
 }
+
+
+.images {
+  background: white;
+  height: 90%;
+  width: 80%;
+  max-width: 555px;
+  min-width: 300px;
+  border-radius: 33px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+
+.swiper-slide {
+  background: red;
+}
+
+.project .description p {
+  max-width: 400px;
+  font-size: 20px;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+div.tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 15%;
+  margin: 0 auto;
+}
+
+.tags h6 {
+  padding: 5px 8px;
+  margin: 3px;
+  font-size: 20px;
+  background: white;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 
 /* Utilities */
 
@@ -247,6 +308,13 @@ h3 {
 
 h1 {
   font-size: 48px;
+}
+
+h5 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
 }
 
 .bolded {
