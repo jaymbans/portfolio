@@ -9,8 +9,8 @@ function Navbar() {
         <a className='nav-link'>Jordan.dev</a>
       </div>
       <div className="navbar-right">
-        <a className='nav-link'>Home</a>
-        <a className='nav-link'>About</a>
+        <a href='#' className='nav-link'>Home</a>
+        <a href='#about-me' className='nav-link'>About</a>
         <a className='nav-link'>Projects</a>
         <a className='nav-link'>Contact</a>
       </div>
