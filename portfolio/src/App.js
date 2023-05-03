@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import LandingPage from './components/LandingPage';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LandingPage />
       <AboutMe />
       <Projects />
+      <ContactMe />
     </div>
   );
 }
