@@ -346,6 +346,8 @@ div.tags {
   color: #717171
 }
 
+
+
 /* contact me */
 section#contact-me {
   overflow: hidden;
@@ -586,4 +588,20 @@ h6 {
     width: 100%;
   }
 
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 27px;
+  }
+
+  div.images.swiper-container:not(.mobile) .swiper-backface-hidden {
+    margin-top: 25px;
+    height: 37% !important;
+  }
+
+  div.images.swiper-container {
+    width: 90%
+  }
 }
