@@ -401,6 +401,7 @@ section#contact-me {
   font-family: var(--mulish);
 }
 
+
 #contact-me .content>div:last-child {
   font-family: var(--poppins);
   color: white;
@@ -414,6 +415,12 @@ section#contact-me {
   padding: 1.5% 3%;
   margin-left: 10px;
   display: inline-block;
+}
+
+#contact-me .content>div:last-child a img {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 form.card {
