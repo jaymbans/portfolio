@@ -1,5 +1,4 @@
 import Typed from 'react-typed';
-import './components'
 
 function LandingPage() {
 
@@ -39,7 +38,6 @@ function LandingPage() {
           <img src={require('../assets/python-logo.png')} />
         </div>
       </div>
-      <img id='scroll-down' src='https://cdn.dribbble.com/users/1459765/screenshots/3563580/scrolling_mousewheel.gif' />
     </section>
   )
 }
