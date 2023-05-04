@@ -597,7 +597,8 @@ h6 {
 
 
   #navbar {
-    display: flex;
+    display: fixed;
+    height: 8vh;
     z-index: 10;
     position: relative;
   }
@@ -606,7 +607,7 @@ h6 {
     position: absolute;
     width: 50vw;
     height: 100vh;
-    top: 6vh;
+    top: 8vh;
     right: 0;
     flex-direction: column;
     justify-content: flex-start;
