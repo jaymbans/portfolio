@@ -1,5 +1,6 @@
 {
-  "name": "http://jaymbans.github.io/portfolio",
+  "homepage": "http://jaymbans.github.io/portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
