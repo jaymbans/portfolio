@@ -57,9 +57,11 @@ function AboutMe() {
               <img src={require('../assets/github-logo.png')} />
             </a>
           </div>
-          <button className="blue-btn">
-            Resume
-          </button>
+          <a href='https://raw.githubusercontent.com/jaymbans/portfolio/7fd533595f09e9cced868b846eb25164f3f41693/portfolio/src/assets/JordanMbanefoResume.pdf' target='_blank'>
+            <button className="blue-btn">
+              Resume Download
+            </button>
+          </a>
         </div>
       </div>
     </section>
