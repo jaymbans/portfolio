@@ -10,7 +10,7 @@ function AboutMe() {
             thanks for tuning in to my elevator pitch
           </h3>
           <p>
-            I’m a software engineer, currently working as a technology consultant at <a target='_blank' href='https://www2.deloitte.com/us/en.html' className='external-link'>Deloitte</a>. My role has ranged from eCommerce <span className='bolded'>web development</span>, to <span className='bolded'>data analytics</span> and <span className='bolded'>engineering</span>. Though consulting has made me a bit nomadic, I am based out of New York City 📍. Prior to this role, I studied accounting (hear me out, I can explain...) and information systems at <a target='_blank' href='https://www1.villanova.edu/university.html' className='external-link'>Villanova University</a>.
+            I’m Jordan, currently working as a software engineer in <a target='_blank' href='https://www2.deloitte.com/us/en.html' className='external-link'>Deloitte's consulting practice</a>. My role has ranged from eCommerce <span className='bolded'>web development</span>, to <span className='bolded'>data analytics</span> and <span className='bolded'>engineering</span>. Though consulting has made me a bit nomadic, I am based out of New York City 📍. Prior to this role, I studied accounting (hear me out, I can explain...) and information systems at <a target='_blank' href='https://www1.villanova.edu/university.html' className='external-link'>Villanova University</a>.
           </p>
           <br />
           <p>
@@ -57,9 +57,9 @@ function AboutMe() {
               <img src={require('../assets/github-logo.png')} />
             </a>
           </div>
-          <a href='https://raw.githubusercontent.com/jaymbans/portfolio/7fd533595f09e9cced868b846eb25164f3f41693/portfolio/src/assets/JordanMbanefoResume.pdf' target='_blank'>
+          <a href='https://www.linkedin.com/in/jordan-mbanefo/overlay/1635533687033/single-media-viewer/?profileId=ACoAAChtRUkB5K6RMRIO0-1wFxZD_Ly-YE2FWpg' target='_blank'>
             <button className="blue-btn">
-              Resume Download
+              Resume
             </button>
           </a>
         </div>
